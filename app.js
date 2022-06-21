@@ -49,14 +49,15 @@ var pg = require('pg');
 // CLOUD DATABASE
 var Sequelize = require('sequelize'),
  sequelize = new Sequelize({
-  username: "mutclyib",
-  password: "89RRrgOpCmuNkZxBMPxWC-5Koz2hvYCJ",
-  database: "mutclyib",
-  host: "tuffi.db.elephantsql.com",
+  username: "USERNAME",
+  password: "PASS",
+  database: "USERNAME",
+  host: "XXX.db.elephantsql.com",
   port: 5432,
   dialect: "postgres"
  });
 
+ //postgres://USENAME:PASS@XXX.db.elephantsql.com/USERNAME
 
 // LOCAL DATABASE 
 // var Sequelize = require('sequelize'),
